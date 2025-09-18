@@ -36,7 +36,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20F);
-            label1.Location = new Point(86, 96);
+            label1.Location = new Point(78, 92);
             label1.Name = "label1";
             label1.Size = new Size(287, 37);
             label1.TabIndex = 0;
@@ -45,11 +45,11 @@
             // 
             // button1
             // 
-            button1.Location = new Point(171, 182);
+            button1.Location = new Point(168, 164);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 1;
-            button1.Text = "Run";
+            button1.Text = " ";
             button1.UseVisualStyleBackColor = true;
             // 
             // Form1
