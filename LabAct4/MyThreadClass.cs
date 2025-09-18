@@ -12,7 +12,18 @@ namespace LabAct4
     {
         public static void Thread1()
         {
-          
+            Thread.CurrentThread.Name = "Thread1";
+
+            for (int loopCount = 1; loopCount <= 5; loopCount++)
+            {
+                Thread thread = Thread.CurrentThread;
+
+                Console.WriteLine("Name of Thread: " + thread.Name + " = " + loopCount);
+                Thread.Sleep(1500);
+            }
+
+            Console.WriteLine("Thread1 loop terminated after 5 attempts. ");
+
         }
         class Program
         {
